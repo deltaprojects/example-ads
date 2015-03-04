@@ -1,0 +1,29 @@
+{{=<% %>=}}
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript">
+    try{ {{preamble}} }catch(e){}
+    if (typeof(window.HTML5) == "undefined") {
+      document.write("<scr"+"ipt src=\"http://de17a-test.com:1951/html5.js\"></scr"+"ipt>");
+    } else { window.HTML5.boot(window, window.Sting); }
+  </script>
+  <script type="text/javascript">
+    Config = {
+      width: <% width %>,
+      height: <% height %>,
+      expandedWidth: <% expandedWidth %>,
+      expandedHeight: <% expandedHeight %>
+    }
+  </script>
+  <script src="ad.min.js"></script>
+  <link rel="stylesheet" href="ad.min.css">
+  <title><% title %></title>
+</head>
+<body>
+  <div id="viewport"></div>
+  <a id="click" class="button">Buy Online!</a>
+</body>
+</html>

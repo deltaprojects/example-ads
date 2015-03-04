@@ -1,0 +1,16 @@
+{
+  "name": "example-ads",
+  "version": "1.0.0",
+  "description": "example-ads",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "PhysicsJS": "~0.7.0",
+    "matter-js": "~0.8.0-alpha",
+    "domready": "~1.0.7"
+  }
+}

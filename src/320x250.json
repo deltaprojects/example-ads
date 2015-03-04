@@ -1,0 +1,11 @@
+{
+  "title": "320x250 Example",
+  "width": "320",
+  "height": "250",
+  "expandedWidth": "320",
+  "expandedHeight": "400",
+  "source": "index.html",
+  "clicktags": {
+    "clickTag": "http://example.org"
+  }
+}

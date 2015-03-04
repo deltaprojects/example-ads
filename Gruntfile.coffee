@@ -77,7 +77,7 @@ module.exports = (grunt) ->
       bower:
         options:
           mangle: true
-          compress: true
+          compress: {}
         files:
           "<%= config.destinationDir %>/js/ad.min.js": ["<%= config.destinationDir %>/js/bower.js", "<%= config.destinationDir %>/js/ad.js"]
 

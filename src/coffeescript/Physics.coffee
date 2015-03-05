@@ -36,4 +36,4 @@ class Physics
   expand: -> Matter.Body.translate(@ground, {x: 0, y: @config.expandedHeight - @config.height})
   contract: -> Matter.Body.translate(@ground, {x: 0, y: -(@config.expandedHeight - @config.height)})
 
-exports?.module = Physics
+module?.exports = Physics

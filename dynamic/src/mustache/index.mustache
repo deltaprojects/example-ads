@@ -1,0 +1,31 @@
+{{=<% %>=}}
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript">
+    try{ {{preamble}} }catch(e){}
+    if (typeof(window.HTML5) == "undefined") {
+      document.write("<scr"+"ipt src=\"http://de17a-test.com:1951/html5.js\"></scr"+"ipt>");
+    } else { window.HTML5.boot(window, window.Sting); }
+  </script>
+  <script type="text/javascript">
+    Config = {
+      width: <% width %>,
+      height: <% height %>
+    }
+  </script>
+  <script src="ad.js"></script>
+  <link rel="stylesheet" href="ad.css">
+  <title><% title %></title>
+</head>
+<body>
+<script id="products" type="x-tmpl-mustache">
+{{#products}}
+<h1>{{title}}</h1>
+<h2>{{price}}</h2>
+{{/products}}
+</script>
+</body>
+</html>

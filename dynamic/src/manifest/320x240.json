@@ -1,0 +1,16 @@
+{
+  "title": "320x250 Example",
+  "width": "320",
+  "height": "250",
+  "expandedWidth": "320",
+  "expandedHeight": "400",
+  "source": "index.html",
+  "clicktags": {
+    "clickTAG": "http://example.org"
+  },
+  "variables": {
+    "$productFeed": "abc123",
+    "$products": "{{products}}",
+    "$numberOfProducts": 2
+  }
+}

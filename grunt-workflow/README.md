@@ -1,4 +1,4 @@
-# Multiple ads with the same setup
+# Multiple ads with the same source
 This is a more complex setup. But also a lot more powerful.
 
 ## Get started

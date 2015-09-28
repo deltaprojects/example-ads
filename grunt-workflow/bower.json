@@ -10,7 +10,6 @@
   ],
   "dependencies": {
     "PhysicsJS": "~0.7.0",
-    "matter-js": "~0.8.0-alpha",
-    "domready": "~1.0.7"
+    "matter-js": "~0.8.0-alpha"
   }
 }

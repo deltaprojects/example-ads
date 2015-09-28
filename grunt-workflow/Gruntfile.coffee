@@ -105,7 +105,7 @@ module.exports = (grunt) ->
         livereload: 35729
       livereload:
         options:
-          base: ["."]
+          base: ["./build"]
 
     watch:
       coffee:

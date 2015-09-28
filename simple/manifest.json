@@ -1,0 +1,8 @@
+{
+  "width": "350",
+  "height": "350",
+  "source": "index.html",
+  "clicktags": {
+    "clickTAG": "http://example.org"
+  }
+}

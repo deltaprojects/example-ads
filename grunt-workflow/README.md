@@ -2,7 +2,7 @@
 This is a more complex setup. But also a lot more powerful.
 
 ## Get started
-Install [Grunt](http://gruntjs.com/).
+Install [Node](http://nodejs.org/).
 
 Run:
 

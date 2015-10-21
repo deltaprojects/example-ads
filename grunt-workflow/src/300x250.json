@@ -1,9 +1,9 @@
 {
   "title": "300x250 Example",
-  "width": "300",
-  "height": "250",
-  "expandedWidth": "300",
-  "expandedHeight": "400",
+  "width": 300,
+  "height": 250,
+  "expandedWidth": 300,
+  "expandedHeight": 400,
   "source": "index.html",
   "clicktags": {
     "clickTAG": "http://example.org"

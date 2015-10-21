@@ -2,24 +2,18 @@
 This is a more complex setup. But also a lot more powerful.
 
 ## Get started
-Install [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/)
+Install [Grunt](http://gruntjs.com/).
 
 Run:
 
-```js
+```bash
 npm install
-```
-
-and
-
-```js
-bower install
 ```
 
 You are now ready to start exploring. Just run:
 
-```js
-grunt serve
+```bash
+npm start
 ```
 
 and go to `http://localhost:9010`

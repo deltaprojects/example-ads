@@ -103,6 +103,7 @@ module.exports = (grunt) ->
         port: 9010,
         hostname: "*"
         livereload: 35729
+        open: true
       livereload:
         options:
           base: ["./build"]
